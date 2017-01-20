@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Loan Application</title>
+</head>
+<body>
+	<form action="javascript:void(0);">
+	<fieldset>
+		<legend>Loan Application</legend>
+		<h3>Personal Information</h3>
+		<label for="first_name">First Name</label>
+		<input type="text" name="first_name">
+		<label for="middle">Middle Initial</label>
+		<input type="text" name="middle">
+		<label for="last_name">Last Name</label>
+		<input type="text" name="last_name">
+		<br>
+		<br>
+		<label for="home">Home Address</label>
+		<input type="text" name="home">
+		<br>
+		<br>
+		<label for="occupation">Occupation</label>
+		<input type="text" name="occupation">
+		<label for="employer">Place of Employment</label>
+		<input type="text" name="employer">
+		<br>
+		<br>
+		<label for="work_address">Employer Address</label>
+		<input type="text" name="work_address">
+		<h3>Loan Information</h3>
+		<label for="loan_type">What type of loan are you applying for?</label>
+		<select name="loan_type">
+			<option value="commercial">Commercial</option>
+			<option value="real_estate">Real Estate</option>
+			<option value="personal">Personal</option>
+			<option value="mortgage">Mortgage</option>
+		</select>
+		<br>
+		<br>
+		<label for="amount">Requested Loan Amount</label>
+		<input type="number" name="amount" min="1000" step="100">
+		<label for="term">Requested Loan Term</label>
+		<input type="radio" name="term" value="5">5 Years
+		<input type="radio" name="term" value="15">15 Years
+		<input type="radio" name="term" value="30">30 Years
+		<br>
+		<br>
+		<label for="qualifiers">Additional Qualifying Information</label>
+		<input type="Checkbox" name="qualifier1" value="down-payment">I have a down payment.
+		<input type="checkbox" name="qualifier2" value="out-of-state">I am an out-of-state resident.
+		<input type="checkbox" name="qualifier3" value="married">I am married.
+		<input type="checkbox" name="qualifier4" value="co-signor">Someone will be co-signing with me.
+		<br>
+		<br>
+		<label for="comments">Additional Comments</label>
+		<textarea name="comments"></textarea>
+		<h3>Contact Information</h3>
+		<label for ="email">Email Address</label>
+		<input type="email" name="email">
+		<label for="phone">Phone Number</label>
+		<input type="tel" name="phone">
+		<br>
+		<br>
+		<label for="linkdin">LinkedIn Profile</label>
+		<input type="url" name="linkedin">
+	</fieldset>
+</body>
+</html>
