@@ -1,0 +1,6 @@
+.contact:invalid {
+	background:	#ff8b8b;
+}
+.contact:valid {
+	background: #aeff95;
+}
